@@ -332,6 +332,7 @@ button:focus {
 @media (min-width: 50em) {
   .footer-nav {
     columns: 2;
+    padding-left: var(--size-400);
   }
 }
 .footer-nav a {

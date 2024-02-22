@@ -48,6 +48,13 @@ svg {
   max-width: 100%;
   display: block;
 }
+img {
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  max-width: 100%;
+}
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
