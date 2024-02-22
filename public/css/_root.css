@@ -21,6 +21,8 @@
   --fw-bold: 700;
 
   /* font size */
+  --fs-100: 0.25rem;
+  --fs-200: 0.5rem;
   --fs-300: 0.75rem;
   --fs-400: 1rem;
   --fs-500: 1.125rem;
@@ -45,7 +47,7 @@
   --size-900: 5rem;
 }
 
-@media (min-width: 25em) {
+@media (min-width: 50em) {
   :root {
     --fs-primary-heading: var(--fs-900);
     --fs-secondary-heading: var(--fs-800);
