@@ -339,7 +339,8 @@ button:focus {
   text-decoration: none;
   color: var(--clr-neutral-100);
 }
-.footer-nav a:hover {
+.footer-nav a:hover,
+.footer-nav a:focus {
   text-decoration: underline;
 }
 
@@ -366,7 +367,8 @@ button:focus {
   }
 }
 /* social icon hover */
-.social-icon:hover {
+.social-icon:hover,
+.social-icon:focus {
   fill: var(--clr-primary-500);
   box-shadow: 0 0 0 0.1em var(--clr-primary-500);
 }
