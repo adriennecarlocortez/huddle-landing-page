@@ -77,10 +77,21 @@ Evens the spacing of the card and footer content
 }
 ```
 
+Reverse column position for card content
+
+```css
+@media (max-width: 50em) {
+  .reverse-position {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+```
+
 ### Useful resources
 
 - [Kevin Powell Responsive Website Tutorial](https://www.youtube.com/watch?v=h3bTwCqX4ns&list=PL4-IK0AVhVjNDRHoXGort7sDWcna8cGPA) - This is an amazing video to understand building responsive website with best practices.
-- [Any Bell CSS Reset](https://gist.github.com/Asjas/4b0736108d56197fce0ec9068145b421) - This help me have a reset css
+- [Any Bell CSS Reset](https://gist.github.com/Asjas/4b0736108d56197fce0ec9068145b421) - This help me to have a reset css.
 - [SVG SPRIT](https://svgsprit.es/) - This help me compile the small svg icons of the website.
 
 ## Author
