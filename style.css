@@ -319,7 +319,7 @@ button:focus {
 .company-address li {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: 1fr 15fr;
+  grid-auto-columns: 1fr 11fr;
   align-items: start;
   gap: var(--size-200);
 }
